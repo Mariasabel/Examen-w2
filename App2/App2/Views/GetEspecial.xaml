@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.GetEspecial"
+             BackgroundImageSource="https://i.pinimg.com/564x/07/c0/dc/07c0dcdb9f8f080308dd8b4058c13315.jpg"
+             Title="get especial">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Image Source="https://cafedelrey.es/wp-content/uploads/2021/03/Cafe-del-Rey-logo-home.png" Aspect="AspectFit"  HeightRequest="56" Margin="15" ></Image>
+            <Entry  Placeholder="Ingrese id del ingrediente "  x:Name="id_ingredienteform"  Keyboard="Numeric" BackgroundColor="#F5F6F6" PlaceholderColor="Gray" TextColor="Black" Margin="19"/>
+            <Button Text="Buscar" BackgroundColor="#ff5300" BorderColor="White" Clicked="Button_Clicked" Margin="30,30,30,50" VerticalOptions="Center" ></Button>
+            <Label Text="" x:Name="resultado" BackgroundColor="#530161"  FontSize="18" HorizontalTextAlignment="Center"  Padding="70" HeightRequest="600"  FontAttributes="Bold" TextColor="White"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

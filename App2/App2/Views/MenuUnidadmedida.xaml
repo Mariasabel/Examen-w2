@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.MenuUnidadmedida"
+             xmlns:local ="clr-namespace:App2.Views"
+            BarBackgroundColor="#ff5300"
+                Title="Unidades de medida"
+            >
+    <local:PostUnidadmedida></local:PostUnidadmedida>
+    <local:GetUnidadmedida></local:GetUnidadmedida>
+    <local:PutUnidadmedida></local:PutUnidadmedida>
+    <local:DeleteUnidadmedida></local:DeleteUnidadmedida>
+</TabbedPage>

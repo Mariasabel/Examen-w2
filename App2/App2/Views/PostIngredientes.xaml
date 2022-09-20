@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.PostIngredientes"
+             BackgroundImageSource="https://i.pinimg.com/564x/07/c0/dc/07c0dcdb9f8f080308dd8b4058c13315.jpg"
+             Title="Post">
+
+    <Grid  Padding="25">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+
+
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+
+        <Image Source="https://cafedelrey.es/wp-content/uploads/2021/03/Cafe-del-Rey-logo-home.png" Grid.Row="0" ></Image>
+
+        <Entry Placeholder="ingrese nombre del ingrediente" Keyboard="Text" BackgroundColor="#F5F6F6" PlaceholderColor="Gray" TextColor="Black" x:Name="nombreform"  Grid.Row="2" Grid.Column="0"/>
+
+        <Entry Placeholder="ingrese precio del ingrediente" Keyboard="Numeric" BackgroundColor="#F5F6F6" PlaceholderColor="Gray" TextColor="Black" x:Name="precioform"  Grid.Row="3" Grid.Column="0"/>
+
+        <Entry Placeholder="ingrese el id del proveedor" Keyboard="Numeric" BackgroundColor="#F5F6F6" PlaceholderColor="Gray" TextColor="Black" x:Name="id_proveedorform"  Grid.Row="4" Grid.Column="0"/>
+
+
+
+        <Button Text="Enviar" BackgroundColor="#ff5300" BorderColor="White" Grid.Row="6" Grid.Column="0" Clicked="Button_Clicked"></Button>
+
+        <Label Text="" x:Name="resultado" HorizontalOptions="Center" FontSize="18" HorizontalTextAlignment="Center"  Margin="1"  FontAttributes="Bold" TextColor="White" Grid.Row="8" Grid.Column="0" ></Label>
+    </Grid>
+
+
+</ContentPage>

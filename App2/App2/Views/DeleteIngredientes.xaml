@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.DeleteIngredientes"
+              BackgroundImageSource="https://i.pinimg.com/564x/07/c0/dc/07c0dcdb9f8f080308dd8b4058c13315.jpg"
+             Title="Delete">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Image Source="https://cafedelrey.es/wp-content/uploads/2021/03/Cafe-del-Rey-logo-home.png" Aspect="AspectFit"  HeightRequest="56" Margin="15" ></Image>
+            <Entry  Placeholder="ingrese id a borrar"  x:Name="idform"  Keyboard="Numeric" BackgroundColor="#F5F6F6" PlaceholderColor="Gray" TextColor="Black" Margin="19"/>
+            <Button Text="Borrar" BackgroundColor="#ff5300" BorderColor="White" Clicked="Button_Clicked" Margin="30,30,30,50" VerticalOptions="Center" ></Button>
+
+            <Label Text="" x:Name="resultado" HorizontalOptions="Center" FontSize="18" HorizontalTextAlignment="Center"   FontAttributes="Bold" TextColor="White" ></Label>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

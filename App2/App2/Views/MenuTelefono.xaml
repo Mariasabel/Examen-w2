@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.MenuTelefono"
+             xmlns:local ="clr-namespace:App2.Views"
+            BarBackgroundColor="#ff5300"
+                Title="Telefonos">
+
+    <local:PostTelefonos></local:PostTelefonos>
+    <local:GetTelefonos></local:GetTelefonos>
+    <local:PutTelefonos></local:PutTelefonos>
+    <local:DeleteTelefonos></local:DeleteTelefonos>
+</TabbedPage>

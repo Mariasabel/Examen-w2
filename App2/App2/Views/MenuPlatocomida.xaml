@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.MenuPlatocomida"
+             xmlns:local ="clr-namespace:App2.Views"
+             BarBackgroundColor="#ff5300"
+            Title="Plato de comida">
+    <local:PostPlatocomida></local:PostPlatocomida>
+    <local:GetPlatocomida></local:GetPlatocomida>
+    <local:PutPlatocomida></local:PutPlatocomida>
+    <local:DeletePlatocomida></local:DeletePlatocomida>
+    
+</TabbedPage>

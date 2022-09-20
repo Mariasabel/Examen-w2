@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.GetIngredientes"
+             BackgroundImageSource="https://i.pinimg.com/564x/07/c0/dc/07c0dcdb9f8f080308dd8b4058c13315.jpg"
+             Title="Get">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ingredientes" TextColor="White" FontSize="Title"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="19" ></Label>
+            <Label Text="" x:Name="resultado" BackgroundColor="#530161"  FontSize="18" HorizontalTextAlignment="Center"  Padding="70" HeightRequest="600"  FontAttributes="Bold" TextColor="White"
+                VerticalOptions="Center" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
